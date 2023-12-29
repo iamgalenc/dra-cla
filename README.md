@@ -28,16 +28,6 @@ This tool is modified version of [ani-cli](https://github.com/pystardust/ani-cli
 
 Install dependencies [(See below)](#Dependencies)
 
-## Dependencies
-
-- grep
-- sed
-- curl
-- openssl
-- mpv - Video Player
-- aria2 - Download manager
-- ffmpeg - m3u8 Downloader
-
 ```sh
 git clone https://github.com/iamgalenc/dra-cla && cd dra-cla
 sudo cp dra-cla /usr/local/bin/dra-cla
@@ -66,9 +56,19 @@ chmod +x $PREFIX/bin/mpv
 
 Install mpv-android [(Link)](https://play.google.com/store/apps/details?id=is.xyz.mpv)
 
-*Add ```referrer="https://asianembed.io"``` to mpv.conf (Open mpv app, goto three dots top right->Settings->Advanced-->Edit mpv.conf)* 
+*Add ```referrer="https://draplay.info"``` to mpv.conf (Open mpv app, goto three dots top right->Settings->Advanced-->Edit mpv.conf)* 
 
 *Note: VLC android doesn't support referrer option. So it will not work*
+
+## Dependencies
+
+- grep
+- sed
+- curl
+- openssl
+- mpv - Video Player
+- aria2 - Download manager
+- ffmpeg - m3u8 Downloader
 
 ## Uninstall
 
