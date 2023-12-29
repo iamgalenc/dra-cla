@@ -9,9 +9,9 @@
 
 </p>
 
-A cli to browse and watch Korean Drama, Chinese drama. This tool scrapes the site [asianembed](https://asianembed.io) which is the site dramacool scrapes from.
+A command line interface to browse and watch Korean Drama or watch Chinese drama. This tool scrapes the site [draplay](https://draplay.io).
 
-This tool is modified version of [ani-cli](https://github.com/pystardust/ani-cli) which is anime scraping tool. Feel free to check it out if you need to watch anime.
+This tool is modified version of [ani-cli](https://github.com/pystardust/ani-cli) by pystardust which is anime scraping tool and updated version of [dra-cla](https://github.com/CoolnsX/dra-cla) by CoolnsX.
 
 ## Table of Contents
 - [Install](#Installation)
@@ -28,8 +28,18 @@ This tool is modified version of [ani-cli](https://github.com/pystardust/ani-cli
 
 Install dependencies [(See below)](#Dependencies)
 
+## Dependencies
+
+- grep
+- sed
+- curl
+- openssl
+- mpv - Video Player
+- aria2 - Download manager
+- ffmpeg - m3u8 Downloader
+
 ```sh
-git clone https://github.com/CoolnsX/dra-cla && cd dra-cla
+git clone https://github.com/iamgalenc/dra-cla && cd dra-cla
 sudo cp dra-cla /usr/local/bin/dra-cla
 ```
 
@@ -64,13 +74,3 @@ Install mpv-android [(Link)](https://play.google.com/store/apps/details?id=is.xy
 
 * Linux: ```sudo rm /usr/local/bin/dra-cla```
 * Android: ```rm $PREFIX/bin/dra-cla```
-
-## Dependencies
-
-- grep
-- sed
-- curl
-- openssl
-- mpv - Video Player
-- aria2 - Download manager
-- ffmpeg - m3u8 Downloader
