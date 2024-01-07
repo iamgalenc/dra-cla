@@ -9,7 +9,7 @@
 
 </p>
 
-A command line interface to browse and watch Korean Drama or watch Chinese drama. This tool scrapes the site [draplay](https://draplay.io).
+A command line interface to browse and watch Asian Drama or Movies. This tool scrapes the site [draplay](https://draplay.io) a.k.a [asianload](https://asianload.io)
 
 This tool is modified version of [ani-cli](https://github.com/pystardust/ani-cli) by pystardust which is anime scraping tool and updated version of [dra-cla](https://github.com/CoolnsX/dra-cla) by CoolnsX.
 
