@@ -464,7 +464,7 @@ fi
 base_url=$(curl -Ls -o /dev/null -w %{url_effective} https://asianembed.io)
 
 if [ "$base_url" = "https://asianembed.io/" ]; then
-	base_url=$(curl -Ls -o /dev/null -w "%{url_effective}" https://asianload.i0)
+	base_url=$(curl -Ls -o /dev/null -w "%{url_effective}" https://asianload.io)
 fi
 
 case $scrape in
