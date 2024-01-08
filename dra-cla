@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION="2.2.4"
+VERSION="2.2.5"
 
 #######################
 # AUXILIARY FUNCTIONS #
@@ -224,7 +224,7 @@ process_search () {
 	search_results=$(search_drama "$query")
 	while [ -z "$search_results" ]; do
 		err 'No search results found'
-		prompt 'Search Drama: '
+		prompt 'Search Asian Drama/Movies: '
 		query="$REPLY $REPLY2"
 		search_results=$(search_drama "$query")
 	done
