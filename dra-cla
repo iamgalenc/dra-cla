@@ -464,13 +464,13 @@ fi
 base_url=$(curl -Ls -o /dev/null -w %{url_effective} https://asianembed.io)
 
 if [ "$base_url" = "https://asianembed.io/" ]; then
-	base_url=$(curl -Ls -o /dev/null -w "%{url_effective}" https://asianload.io)
+	base_url=$(curl -Ls -o /dev/null -w "%{url_effective}" https://draplay.info/)
 fi
 
 case $scrape in
 	query)
 		if [ -z "$*" ]; then
-			prompt "Search Drama: "
+			prompt "Search Asian Drama/Movie: "
 			query="$REPLY $REPLY2"
 		else
 			if [ -n "$ep_choice_to_start" ]; then
